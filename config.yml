@@ -1,0 +1,47 @@
+#####################################
+#                                   #
+#           EnterPassport           #
+#               v1.1                #
+#                                   #                                    
+#####################################
+
+# Placeholders
+# {player} > Ник
+# {player_realname} > Реальное имя
+# {player_age} > Возраст
+# {player_sex} > Пол
+# {player_vk} > ВК
+# {player_ds} > Дискорд
+# {player_tg} > Телеграм
+# 
+# permissionErrorMessage, guiName поддерживают только {player} (из переменных самого плагина)
+
+# General
+guiName: "&eПасспорт > &8{player}"
+playerHeadName: "&eПасспорт > &f{player}"
+descriptionName: "&e> &bИнструкция &e<"
+glassName: "&b> &aПасспорт &b<"
+permissionErrorMessage: "&cУ вас нет разрешения на это"
+
+PassportLore:
+    - "\n"
+    - '&7Игрок: &d{player}'
+    - '&7Имя: &e{player_realname}      '
+    - '&7Возраст: &e{player_age}'
+    - '&7Пол: &e{player_sex}'
+    - '&7ВКонтакте: &e{player_vk}'
+    - '&7Дискорд: &e{player_ds}'
+    - '&7Телеграм: &e{player_tg}'
+    - "\n"
+    
+DescriptionLore:
+    - ""
+    - '&d/ep | /pass | /passport &9- &7Открыть мой пасспорт'
+    - '&d/ep <player> | /pass <player> | /passport &a<player> &9- &7Посмотреть паспорт игрока  '
+    - '&d/ep | /pass | /passport setsex &a<m/f> &9- &7Указать пол'
+    - '&d/ep | /pass | /passport setrealname &a<name> &9- &7Указать реальное имя'
+    - '&d/ep | /pass | /passport setage &a<age> &9- &7Указать свой возраст'
+    - '&d/ep | /pass | /passport setvk &a<link> &9 - &7Указать ВКонтакте'
+    - '&d/ep | /pass | /passport setds &a<TAG> &9 - &7Указать DISCORD'
+    - '&d/ep | /pass | /passport settg &a<link> &9 - &7Указать TELEGRAM'
+    - ""
